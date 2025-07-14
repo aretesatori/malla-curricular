@@ -1,7 +1,7 @@
 // Función para cargar el JSON y crear la malla
 async function loadCurriculum() {
     try {
-        const response = await fetch('./ing-civil-electronica.json');
+        const response = await fetch('./carreras/ing-civil-electronica.json');
         if (!response.ok) {
             throw new Error(`Error al cargar los datos: ${response.status}`);
         }
@@ -174,7 +174,6 @@ document.addEventListener('click', function (event) {
 
 // Función para calcular créditos totales
 function calculateTotalCredits(curriculumData) {
-    // const subjects = document.querySelectorAll('.subject');
     let total = 0;
 
     curriculumData.semestres.forEach(semestre => {
@@ -186,11 +185,9 @@ function calculateTotalCredits(curriculumData) {
 
     document.getElementById('totalCredits').innerHTML = `
         <div class="total-credits">
-            <strong>Total de Créditos SCT:</strong> ${total} créditos
+            <strong>Total de Créditos SCT:</strong> ${total}
         </div>
     `;
-
-    console.log(total)
 }
 
 // Inicializar la malla al cargar la página

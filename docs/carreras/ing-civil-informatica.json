@@ -1,0 +1,597 @@
+{
+    "carrera": "Ingeniería Civil en Informática",
+    "semestres": [
+        {
+            "numero": 1,
+            "asignaturas": [
+                {
+                    "codigo": "BAIN065",
+                    "nombre": "Álgebra para Ingeniería",
+                    "requisitos": [],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN067",
+                    "nombre": "Geometría para Ingeniería",
+                    "requisitos": [],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "INFO063",
+                    "nombre": "Introducción a la Programación",
+                    "requisitos": [],
+                    "creditos": 3,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN069",
+                    "nombre": "Química para Ingeniería",
+                    "requisitos": [],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "INFO073",
+                    "nombre": "Taller de Ingeniería: Introducción a la Profesión",
+                    "requisitos": [],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                }
+            ]
+        },
+        {
+            "numero": 2,
+            "asignaturas": [
+                {
+                    "codigo": "BAIN073",
+                    "nombre": "Álgebra Lineal para Ingeniería",
+                    "requisitos": [
+                        "BAIN065"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN075",
+                    "nombre": "Cálculo en una Variable",
+                    "requisitos": [
+                        "BAIN065",
+                        "BAIN067"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "INFO081",
+                    "nombre": "Programación",
+                    "requisitos": [
+                        "BAIN065",
+                        "BAIN067"
+                    ],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN071",
+                    "nombre": "Comunicación Idioma Español",
+                    "requisitos": [],
+                    "creditos": 3,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "DYRE070",
+                    "nombre": "Educación Física y Salud",
+                    "requisitos": [],
+                    "creditos": 2,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "INFO083",
+                    "nombre": "Taller de Ingeniería: Programación Aplicada",
+                    "requisitos": [],
+                    "creditos": 3,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT12",
+                    "nombre": "Optativo de Formación General",
+                    "requisitos": [
+                    ],
+                    "creditos": 3,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 3,
+            "asignaturas": [
+                {
+                    "codigo": "BAIN081",
+                    "nombre": "Ecuaciones Diferenciales para Ingeniería",
+                    "requisitos": [
+                        "BAIN073",
+                        "BAIN075"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN083",
+                    "nombre": "Cálculo en Varias Variables",
+                    "requisitos": [
+                        "BAIN075"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN085",
+                    "nombre": "Física: Ondas y Electromagnetismo",
+                    "requisitos": [
+                        "BAIN075",
+                        "BAIN077"
+                    ],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEB075",
+                    "nombre": "Circuitos Eléctricos en Corriente Continua",
+                    "requisitos": [
+                        "BAIN065"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEB080",
+                    "nombre": "Taller de Ingeniería Electrónica: Eficiencia Energética",
+                    "requisitos": [
+                        "BAIN075",
+                        "BAIN073",
+                        "ELEB070"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT13",
+                    "nombre": "Optativo de Formación General 2",
+                    "requisitos": [],
+                    "creditos": 2,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 4,
+            "asignaturas": [
+                {
+                    "codigo": "BAIN087",
+                    "nombre": "Métodos Numéricos para Ingeniería",
+                    "requisitos": [
+                        "BAIN081"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN089",
+                    "nombre": "Física: Fluidos y Termodinámica",
+                    "requisitos": [
+                        "BAIN081",
+                        "BAIN077"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEB085",
+                    "nombre": "Circuitos Eléctricos en Corriente Alterna",
+                    "requisitos": [
+                        "ELEB075"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN091",
+                    "nombre": "Estadísticas y Probabilidades para Ingeniería",
+                    "requisitos": [
+                        "BAIN073"
+                    ],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEB088",
+                    "nombre": "Tratamiento Matemático de Señales",
+                    "requisitos": [
+                        "BAIN083"
+                    ],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEB090",
+                    "nombre": "Taller de Diseño en Ingeniería Electrónica: Proyecto Electrónico",
+                    "requisitos": [
+                        "ELEB080",
+                        "BAIN081",
+                        "BAIN083"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                }
+            ]
+        },
+        {
+            "numero": 5,
+            "asignaturas": [
+                {
+                    "codigo": "ELEL176",
+                    "nombre": "Sistemas Electrónicos: Polarización y Estabilidad",
+                    "requisitos": [
+                        "ELEB085"
+                    ],
+                    "creditos": 10,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEL185",
+                    "nombre": "Modelado y Análisis de Sistemas Dinámicos",
+                    "requisitos": [
+                        "ELEB088"
+                    ],
+                    "creditos": 8,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEL187",
+                    "nombre": "Ondas, Electrones y Sólidos",
+                    "requisitos": [
+                        "BAIN089"
+                    ],
+                    "creditos": 8,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEL189",
+                    "nombre": "Sistemas Lógicos Binarios",
+                    "requisitos": [
+                        "ELEB085"
+                    ],
+                    "creditos": 8,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEL200",
+                    "nombre": "Diseño de Circuitos Electrónicos",
+                    "requisitos": [
+                        "ELEB085"
+                    ],
+                    "creditos": 8,
+                    "categoria": "Vinculante"
+                }
+            ]
+        },
+        {
+            "numero": 6,
+            "asignaturas": [
+                {
+                    "codigo": "ELEL202",
+                    "nombre": "Sistemas Electrónicos: Radio Frecuencia",
+                    "requisitos": [
+                        "ELEL176"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEL204",
+                    "nombre": "Sistema de Tiempo Discreto",
+                    "requisitos": [
+                        "ELEL185"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEL206",
+                    "nombre": "Sistema de Control Retroalimentados",
+                    "requisitos": [
+                        "ELEL185"
+                    ],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEL208",
+                    "nombre": "Materiales y Dispositivos de la Electrónica",
+                    "requisitos": [
+                        "ELEL187"
+                    ],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEL210",
+                    "nombre": "Diseño de Sistemas Electrónicos",
+                    "requisitos": [
+                        "ELEL187"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                }
+            ]
+        },
+        {
+            "numero": 7,
+            "asignaturas": [
+                {
+                    "codigo": "ELEL212",
+                    "nombre": "Sensores y Acondicionamiento de Senal",
+                    "requisitos": [
+                        "ELEL202"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEL214",
+                    "nombre": "Sistemas de Modulación",
+                    "requisitos": [
+                        "ELEL202"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEL216",
+                    "nombre": "Campos en Sistemas Electrónicos",
+                    "requisitos": [
+                        "ELEL187"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEL218",
+                    "nombre": "Sistemas Lógicos Programables",
+                    "requisitos": [
+                        "ELEL189",
+                        "ELEL202"
+                    ],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEL220",
+                    "nombre": "Diseño de Sistemas Electrónicos Digitales",
+                    "requisitos": [
+                        "ELEL189",
+                        "ELEL202"
+                    ],
+                    "creditos": 9,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT40",
+                    "nombre": "Optativo de Especialización 1",
+                    "requisitos": [
+                        "ELEL202",
+                        "ELEL204",
+                        "ELEL206",
+                        "ELEL208",
+                        "ELEL210"
+                    ],
+                    "creditos": 2,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 8,
+            "asignaturas": [
+                {
+                    "codigo": "ELEL222",
+                    "nombre": "Redes de Comunicación Digital",
+                    "requisitos": [
+                        "ELEL214"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEL224",
+                    "nombre": "Medios de Transmisión Electromagnéticos",
+                    "requisitos": [
+                        "ELEL216"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEL226",
+                    "nombre": "Software para Ingeniería Electrónica",
+                    "requisitos": [
+                        "ELEL200"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "IECO155",
+                    "nombre": "Economía General",
+                    "requisitos": [
+                        "ELEL202",
+                        "ELEL204",
+                        "ELEL206",
+                        "ELEL208",
+                        "ELEL210"
+                    ],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEL228",
+                    "nombre": "Diseño de Sistemas Digitales",
+                    "requisitos": [
+                        "ELEL220"
+                    ],
+                    "creditos": 9,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT41",
+                    "nombre": "Optativo de Especialización 2",
+                    "requisitos": [
+                        "ELEL202",
+                        "ELEL204",
+                        "ELEL206",
+                        "ELEL208",
+                        "ELEL210"
+                    ],
+                    "creditos": 2,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 9,
+            "asignaturas": [
+                {
+                    "codigo": "ELEP215",
+                    "nombre": "Sistemas Electrónicos Industriales",
+                    "requisitos": [
+                        "ELEL218"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "IDMI175",
+                    "nombre": "Administración y Gestión de Empresas",
+                    "requisitos": [
+                        "ELEL200"
+                    ],
+                    "creditos": 4,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEP220",
+                    "nombre": "Gestión de Calidad y Medio Ambiente",
+                    "requisitos": [
+                        "IECO155"
+                    ],
+                    "creditos": 4,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEP225",
+                    "nombre": "Proyecto Profesional: Fase Diseño",
+                    "requisitos": [
+                        "ELEL228"
+                    ],
+                    "creditos": 10,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELEP295",
+                    "nombre": "Gira de Estudios",
+                    "requisitos": [
+                        ""
+                    ],
+                    "creditos": 2,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT71",
+                    "nombre": "Optativo de Profundización 1",
+                    "requisitos": [
+                        ""
+                    ],
+                    "creditos": 4,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 10,
+            "asignaturas": [
+                {
+                    "codigo": "ELEP231",
+                    "nombre": "Proyecto Profesional: Fase Evaluación y Gestión",
+                    "requisitos": [
+                        "ELEL200"
+                    ],
+                    "creditos": 12,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELEP229",
+                    "nombre": "Emprendimiento e Innovación",
+                    "requisitos": [
+                        "IDMI175"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELEC295",
+                    "nombre": "Práctica Profesional I",
+                    "requisitos": [
+                        "",
+                        ""
+                    ],
+                    "creditos": 10,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT72",
+                    "nombre": "Optativo de Profundización 2",
+                    "requisitos": [
+                        "",
+                        ""
+                    ],
+                    "creditos": 4,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 11,
+            "asignaturas": [
+                {
+                    "codigo": "ELEP299",
+                    "nombre": "Trabajo de Título",
+                    "requisitos": [
+                        "ELEP231"
+                    ],
+                    "creditos": 12,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEC296",
+                    "nombre": "Práctica Profesional II",
+                    "requisitos": [
+                        "ELEC295"
+                    ],
+                    "creditos": 14,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT73",
+                    "nombre": "Optativo de Profundización 3",
+                    "requisitos": [
+                        "ELEL200"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Optativa"
+                }
+            ]
+        }
+    ]
+}

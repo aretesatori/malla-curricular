@@ -1,7 +1,7 @@
 // Función para cargar el JSON y crear la malla
 async function loadCurriculum() {
     try {
-        const response = await fetch('./carreras/ing-civil-electronica.json');
+        const response = await fetch('carreras/ing-civil-electronica.json');
         if (!response.ok) {
             throw new Error(`Error al cargar los datos: ${response.status}`);
         }
@@ -14,7 +14,7 @@ async function loadCurriculum() {
                     <div style="text-align: center; padding: 20px; color: #e53e3e;">
                         <h3>Error al cargar los datos de la malla curricular</h3>
                         <p>${error.message}</p>
-                        <p>Verifique que el archivo malla.json exista y sea válido.</p>
+                        <p>Verifique que el archivo exista y sea válido.</p>
                     </div>
                 `;
     }

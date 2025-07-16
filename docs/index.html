@@ -60,11 +60,32 @@
             padding: 10px 15px;
             margin: 10px 0;
             border-radius: 4px;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             border-left: 4px solid #3498db;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 30px;
+        }
+
+        .instructions h2 {
+            font-size: 1.5rem;
+            margin-left: 30px;
+        }
+
+        .instructions h3 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-left: 60px;
+            margin-bottom: 10px;
+        }
+
+        .instructions li {
+            font-size: 1.1rem;
+        }
+
+        .instructions ul {
+            margin-left: 80px;
         }
 
         .controls {
@@ -78,7 +99,6 @@
             color: white;
             border: none;
             border-radius: 4px;
-            cursor: pointer;
             font-size: 0.85rem;
             transition: background 0.2s;
         }
@@ -136,7 +156,7 @@
             border-radius: 4px;
             padding: 8px 5px 6px 6px;
             margin-bottom: 8px;
-            cursor: pointer;
+            cursor: default;
             position: relative;
             border-left: 5px solid #3498db;
             border-top: 1px solid #e2e8f0;
@@ -374,24 +394,29 @@
     <div class="container">
         <header>
             <h1>Malla Curricular Interactiva</h1>
-            <p class="subtitle">Carrera: Ingeniería Civil Electrónica, Universidad Austral de Chile</p>
+            <!-- <p class="subtitle">Carrera: Ingeniería Civil Electrónica, Universidad Austral de Chile</p> -->
         </header>
 
-        <!-- <div class="instructions">
+        <div class="instructions">
             <div>
-                Pase el cursor sobre cualquier asignatura para ver sus relaciones:
-                <strong>prerequisitos (naranja)</strong> y
-                <strong>asignaturas que la requieren (rojo)</strong>
-                <br>
-                <strong>Haga clic para mantener la selección</strong>
-            </div>
-        </div> -->
+                <h2>Carreras</h2><br>
 
-        <div class="curriculum-container" id="curriculumContainer">
-            <!-- Los semestres se generarán con JavaScript -->
+                <h3>Facultad de Ciencias de la Ingeniería</h3>
+                <ul>
+                    <li><a href="carreras/ingenieria-civil-electronica/">Ingeniería Civil Electrónica</a></li>
+                    <li><a href="carreras/ingenieria-civil-acustica/">Ingeniería Civil Acústica</a></li>
+                    <li><a href="carreras/ingenieria-civil-en-informatica/">Ingeniería Civil en Informática</a></li>
+                    <li><a href="#"></a>Ingeniería Civil Mecánica</li>
+                </ul>
+            </div>
         </div>
 
-        <div class="legend">
+
+
+        <!-- <div class="curriculum-container" id="curriculumContainer">
+        </div> -->
+
+        <!-- <div class="legend">
             <div class="legend-item">
                 <div class="legend-color legend-normal"></div>
                 <span>Asignatura Sin Seleccionar</span>
@@ -399,12 +424,12 @@
             <div class="legend-item">
                 <div class="legend-color legend-current"></div>
                 <span>Asignatura Seleccionada</span>
-            </div>
-            <!-- <div class="legend-item">
+            </div> -->
+        <!-- <div class="legend-item">
                 <div class="legend-color legend-highlighted"></div>
                 <span>Requisitos</span>
             </div> -->
-            <div class="legend-item">
+        <!-- <div class="legend-item">
                 <div class="legend-color legend-requisite"></div>
                 <span>Prerequisito de la Asignatura Seleccionada</span>
             </div>
@@ -412,9 +437,9 @@
                 <div class="legend-color legend-requisite-for"></div>
                 <span>Requerida por la Asignatura Seleccionada</span>
             </div>
-        </div>
+        </div> -->
 
-        <div class="legend-category">
+        <!-- <div class="legend-category">
             <div class="legend-category-item">
                 <div class="legend-cat-color legend-especialidad"></div>
                 <span>Área de Formación de la Especialidad</span>
@@ -431,15 +456,14 @@
                 <div class="legend-cat-color legend-optativa"></div>
                 <span>Área de Formación Optativa</span>
             </div>
-        </div>
+        </div> -->
 
-        <div id="totalCredits" class="">
-            <!-- Total de créditos se mostrará aquí -->
-        </div>
+        <!-- <div id="totalCredits" class="">
+        </div> -->
 
-        <div class="reference">
+        <!-- <div class="reference">
             <p>Nota: Los requisitos de cada asignatura fueron obtenidos directamente desde InfoAlumnos.</p>
-        </div>
+        </div> -->
 
         <div class="reference">
             <p>Esta malla curricular interactiva es de código abierto y se encuentra en el repositorio: <a
@@ -447,17 +471,18 @@
             </p>
         </div>
 
-        <div class="reference">
+        <!-- <div class="reference">
             <p>Plan de Estudios de la Carrera de Ingeniería Civil Electrónica: <a
                     href="https://www.uach.cl/dw/admision/plandeestudio.php?car=1736">https://www.uach.cl/dw/admision/plandeestudio.php?car=1736</a>
             </p>
-        </div>
+        </div> -->
 
         <footer>
-            <p>Desarrollado por <a href="https://aretesatori.github.io/">Areté S. Poffart</a>. Licencia <a href="https://github.com/aretesatori/malla-interactiva-uach?tab=MIT-1-ov-file">MIT</a>. 2025.</p>
+            <p>Desarrollado por <a href="https://aretesatori.github.io/">Areté S. Poffart</a>. Licencia <a
+                    href="https://github.com/aretesatori/malla-interactiva-uach?tab=MIT-1-ov-file">MIT</a>. 2025.</p>
         </footer>
     </div>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 
 </html>

@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Segoe UI', 'Roboto', sans-serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: #f0f5ff;
+    color: #2c3e50;
+    padding: 15px;
+    /* min-height: 100vh; */
+}
+
+.container {
+    /* max-width: 1650px; */
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    overflow: hidden;
+    transform: scale(0.8);
+    transform-origin: top left;
+    width: 125%;
+    /* Compensar el escalado */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    background: linear-gradient(to right, #1a3a6c, #2c5282);
+    border-radius: 6px;
+    color: white;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.instructions {
+    background: #e8f4ff;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border-left: 4px solid #3498db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 6px 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.curriculum-container * {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.curriculum-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 5px 0;
+    gap: 5px;
+    scrollbar-width: thin;
+    scrollbar-color: #a0aec0 #f1f1f1;
+    user-select: none;
+}
+
+.curriculum-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.curriculum-container::-webkit-scrollbar-thumb {
+    background-color: #a0aec0;
+    border-radius: 3px;
+}
+
+.semester {
+    min-width: 138px;
+    /* min-width: 8%; */
+    max-width: 9%;
+    background: #f8fafc;
+    border-radius: 6px;
+    padding: 6px 5px;
+    border: 1px solid #e2e8f0;
+}
+
+.semester-header {
+    text-align: center;
+    padding: 10px 5px;
+    background: #2c5282;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.subject {
+    background: white;
+    border-radius: 4px;
+    padding: 8px 5px 6px 6px;
+    margin-bottom: 8px;
+    /* cursor: pointer; */
+    cursor: default;
+    position: relative;
+    border-left: 5px solid #3498db;
+    border-top: 1px solid #e2e8f0;
+    border-right: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.subject:hover {
+    background: #f8fbff;
+}
+
+.subject-code {
+    font-weight: 600;
+    color: #2b6cb0;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject-credits {
+    font-weight: 550;
+    padding: 6px 0 0 0;
+    font-size: 0.75rem;
+}
+
+.subject-name {
+    font-weight: 600;
+    /* font-size: 0.8rem; */
+    font-size: 0.82rem;
+    color: #2d3748;
+    line-height: 1.3;
+    margin-top: 4px;
+    text-wrap: wrap;
+}
+
+/* Estados de las asignaturas */
+.subject.highlighted {
+    background-color: #ebfdff;
+    border-left-color: #3498db;
+}
+
+.subject.requisite {
+    background-color: #f9eabd;
+    border-left-color: #f6ad55;
+}
+
+.subject.requisite-for {
+    background-color: #fcc2c2;
+    border-left-color: #fc8181;
+}
+
+.subject.current {
+    background-color: #c7eff6;
+    /* border-left-color: #48bb78; */
+}
+
+/* Categorías de asignaturas */
+.subject.especialidad {
+    border-left-color: #3498db;
+}
+
+.subject.general {
+    border-left-color: #e74c3c;
+}
+
+.subject.vinculante {
+    border-left-color: #f39c12;
+}
+
+.subject.optativa {
+    border-left-color: #2ecc71;
+}
+
+.subject.otro {
+    border-left-color: #909090;
+}
+
+.legend {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 12px 10% 12px 10%;
+    background: #f8fafc;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    font-size: 0.85rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-color {
+    width: 24px;
+    height: 20px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.legend-normal {
+    background: white;
+    /* border-left: 4px solid #3498db; */
+    /* border-color: #e2e8f0; */
+}
+
+/* .legend-highlighted {
+            background: #ebfdff;
+            border-left: 4px solid #3498db;
+        } */
+
+.legend-requisite {
+    background: #f9eabd;
+    /* border-left: 4px solid #f6ad55; */
+}
+
+.legend-requisite-for {
+    background: #fcc2c2;
+    /* border-left: 4px solid #fc8181; */
+}
+
+.legend-current {
+    background: #C7EFF6;
+    /* border-left: 4px solid #48bb78; */
+}
+
+/* Leyenda de categorías */
+.legend-category {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    padding: 12px 20% 12px 20%;
+    background: #f8fafc;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    font-size: 0.85rem;
+}
+
+.legend-category-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-cat-color {
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.legend-especialidad {
+    border-left: 6px solid #3498db;
+    background: white;
+}
+
+.legend-general {
+    border-left: 6px solid #e74c3c;
+    background: white;
+}
+
+.legend-vinculante {
+    border-left: 6px solid #f39c12;
+    background: white;
+}
+
+.legend-optativa {
+    border-left: 6px solid #2ecc71;
+    background: white;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3498DB;
+}
+
+a:visited {
+    color: #2980B9;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+    color: #4a5568;
+    font-size: 0.85rem;
+}
+
+.total-credits {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding: 8px;
+    background: #edf2f7;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.reference {
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 10px;
+    background: #edf2f7;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+    .semester {
+        min-width: 145px;
+    }
+}
+
+@media (max-width: 992px) {
+    .semester {
+        min-width: 150px;
+    }
+
+    .reference {
+        text-align: left;
+    }
+}

@@ -1,7 +1,7 @@
 // Función para cargar el JSON y crear la malla
 async function loadCurriculum() {
     try {
-        const response = await fetch('carreras/ing-civil-acustica.json');
+        const response = await fetch('../../JSON/ingenieria-civil-electronica.json');
         if (!response.ok) {
             throw new Error(`Error al cargar los datos: ${response.status}`);
         }

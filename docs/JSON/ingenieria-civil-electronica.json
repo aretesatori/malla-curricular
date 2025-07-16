@@ -342,7 +342,7 @@
             "asignaturas": [
                 {
                     "codigo": "ELEL212",
-                    "nombre": "Sensores y Acondicionamiento de Senal",
+                    "nombre": "Sensores y Acondicionamiento de Señal",
                     "requisitos": [
                         "ELEL202"
                     ],

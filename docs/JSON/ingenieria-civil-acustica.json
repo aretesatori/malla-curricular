@@ -1,0 +1,670 @@
+{
+    "carrera": "Ingeniería Civil Acústica",
+    "semestres": [
+        {
+            "numero": 1,
+            "asignaturas": [
+                {
+                    "codigo": "BAIN065",
+                    "nombre": "Álgebra para Ingeniería",
+                    "requisitos": [],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN067",
+                    "nombre": "Geometría para Ingeniería",
+                    "requisitos": [],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS050",
+                    "nombre": "Musisonología",
+                    "requisitos": [],
+                    "creditos": 2,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN069",
+                    "nombre": "Química para Ingeniería",
+                    "requisitos": [],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "BAIN071",
+                    "nombre": "Comunicación Idioma Español",
+                    "requisitos": [],
+                    "creditos": 3,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ACUS070",
+                    "nombre": "Taller de Introducción a la Acústica",
+                    "requisitos": [],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                }
+            ]
+        },
+        {
+            "numero": 2,
+            "asignaturas": [
+                {
+                    "codigo": "BAIN073",
+                    "nombre": "Álgebra Lineal para Ingeniería",
+                    "requisitos": [
+                        "BAIN065"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN075",
+                    "nombre": "Cálculo en una Variable",
+                    "requisitos": [
+                        "BAIN065",
+                        "BAIN067"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN077",
+                    "nombre": "Física: Mecánica",
+                    "requisitos": [
+                        "BAIN065",
+                        "BAIN067"
+                    ],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN079",
+                    "nombre": "Comunicación Idioma Inglés",
+                    "requisitos": [],
+                    "creditos": 3,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "DYRE070",
+                    "nombre": "Educación Física y Salud",
+                    "requisitos": [],
+                    "creditos": 2,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "INFO058",
+                    "nombre": "Programación",
+                    "requisitos": [],
+                    "creditos": 3,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ACUS075",
+                    "nombre": "Taller de Sonido",
+                    "requisitos": [
+                        "ACUS070"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                }
+            ]
+        },
+        {
+            "numero": 3,
+            "asignaturas": [
+                {
+                    "codigo": "BAIN081",
+                    "nombre": "Ecuaciones Diferenciales para Ingeniería",
+                    "requisitos": [
+                        "BAIN073",
+                        "BAIN075"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN083",
+                    "nombre": "Cálculo en Varias Variables",
+                    "requisitos": [
+                        "BAIN075"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN085",
+                    "nombre": "Física: Ondas y Electromagnetismo",
+                    "requisitos": [
+                        "BAIN075",
+                        "BAIN077"
+                    ],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS080",
+                    "nombre": "Lenguaje y Entrenamiento Auditivo Musical Básico",
+                    "requisitos": [
+                        "ACUS050"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS085",
+                    "nombre": "Taller de Introducción al Audio Profesional",
+                    "requisitos": [
+                        "ACUS075"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT12",
+                    "nombre": "Optativo de Formación General",
+                    "requisitos": [],
+                    "creditos": 2,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 4,
+            "asignaturas": [
+                {
+                    "codigo": "BAIN087",
+                    "nombre": "Métodos Numéricos para Ingeniería",
+                    "requisitos": [
+                        "BAIN081"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN089",
+                    "nombre": "Física: Fluidos y Termodinámica",
+                    "requisitos": [
+                        "BAIN081",
+                        "BAIN077"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS088",
+                    "nombre": "Lenguaje y Entrenamiento Auditivo Musical Básico",
+                    "requisitos": [
+                        "ACUS080"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "BAIN091",
+                    "nombre": "Estadísticas y Probabilidades para Ingeniería",
+                    "requisitos": [
+                        "BAIN073"
+                    ],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ACUS090",
+                    "nombre": "Taller de Sonido Creativo",
+                    "requisitos": [
+                        "ACUS050",
+                        "ACUS085"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ACUS092",
+                    "nombre": "Taller de Acústica",
+                    "requisitos": [
+                        "ACUS070"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                }
+            ]
+        },
+        {
+            "numero": 5,
+            "asignaturas": [
+                {
+                    "codigo": "ACUS095",
+                    "nombre": "Fundamentos de Acústica",
+                    "requisitos": [
+                        "ACUS092",
+                        "BAIN081"
+                    ],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS097",
+                    "nombre": "Introducción a la Armonía Tradicional y Moderna",
+                    "requisitos": [
+                        "ACUS088"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS099",
+                    "nombre": "Procesamiento Digital de Señales",
+                    "requisitos": [
+                        "BAIN085"
+                    ],
+                    "creditos": 7,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ACUS101",
+                    "nombre": "Taller Audiovisual",
+                    "requisitos": [
+                        "ACUS085"
+                    ],
+                    "creditos": 5,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ELEL105",
+                    "nombre": "Análisis de Circuitos",
+                    "requisitos": [
+                        "BAIN085"
+                    ],
+                    "creditos": 7,
+                    "categoria": "General"
+                }
+            ]
+        },
+        {
+            "numero": 6,
+            "asignaturas": [
+                {
+                    "codigo": "ACUS105",
+                    "nombre": "Control de Ruido",
+                    "requisitos": [
+                        "ACUS095"
+                    ],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS108",
+                    "nombre": "Electroacústica",
+                    "requisitos": [
+                        "ELEL105"
+                    ],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS135",
+                    "nombre": "Técnicas de Escucha y Control Musical",
+                    "requisitos": [
+                        "ACUS097"
+                    ],
+                    "creditos": 2,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "IIME125",
+                    "nombre": "Herramientas CAD para Ingeniería",
+                    "requisitos": [
+                        "ACUS092"
+                    ],
+                    "creditos": 6,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ACUS112",
+                    "nombre": "Sonido para Imagen",
+                    "requisitos": [
+                        "ACUS090",
+                        "ACUS101"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT100",
+                    "nombre": "Optativo de Especialización 1",
+                    "requisitos": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "creditos": 2,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 7,
+            "asignaturas": [
+                {
+                    "codigo": "ACUS125",
+                    "nombre": "Aislamiento y Análisis de Vibraciones",
+                    "requisitos": [
+                        "ACUS095"
+                    ],
+                    "creditos": 6,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS130",
+                    "nombre": "Refuerzo Sonoro",
+                    "requisitos": [
+                        "ACUS085",
+                        "ACUS108"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS140",
+                    "nombre": "Acústica Arquitectónica",
+                    "requisitos": [
+                        " ACUS105"
+                    ],
+                    "creditos": 7,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "INIS100",
+                    "nombre": "Taller de Administración y Emprendimiento",
+                    "requisitos": [
+                        "",
+                        ""
+                    ],
+                    "creditos": 0,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ACUS148",
+                    "nombre": "Técnicas de Grabación ",
+                    "requisitos": [
+                        "ACUS085",
+                        "ACUS108",
+                        "ACUS135"
+                    ],
+                    "creditos": 7,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ACUS115",
+                    "nombre": "Gira Temprana de Estudio",
+                    "requisitos": [
+                        "ACUS050-17",
+                        "ACUS070-17",
+                        "ACUS075-17",
+                        "ACUS080-17",
+                        "ACUS085-17",
+                        "ACUS088-17",
+                        "ACUS090-17",
+                        "ACUS092-17",
+                        "BAIN065-24",
+                        "BAIN067-24",
+                        "BAIN069-14",
+                        "BAIN073-24",
+                        "BAIN075-24",
+                        "BAIN077-14",
+                        "BAIN083-24",
+                        "BAIN085-14",
+                        "BAIN087-24",
+                        "BAIN089-14",
+                        "BAIN091-14",
+                        "DYRE070-14",
+                        "INFO058-14"
+                    ],
+                    "creditos": 2,
+                    "categoria": "Vinculante"
+                }
+            ]
+        },
+        {
+            "numero": 8,
+            "asignaturas": [
+                {
+                    "codigo": "ACUS155",
+                    "nombre": "Acústica Ambiental",
+                    "requisitos": [
+                        "ACUS105"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS165",
+                    "nombre": "Ultrasonido",
+                    "requisitos": [
+                        "ACUS095"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "IIME160",
+                    "nombre": "Gestión de Proyectos",
+                    "requisitos": [
+                        ""
+                    ],
+                    "creditos": 0,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS177",
+                    "nombre": "Técnicas de Grabación y Postproducción",
+                    "requisitos": [
+                        "ACUS148"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ACUS187",
+                    "nombre": "Taller de Vibraciones",
+                    "requisitos": [
+                        "ACUS125"
+                    ],
+                    "creditos": 5,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT101",
+                    "nombre": "Optativo de Especialización 2",
+                    "requisitos": [],
+                    "creditos": 0,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 9,
+            "asignaturas": [
+                {
+                    "codigo": "ACUS201",
+                    "nombre": "Proyecto Acústico: Acústica Ambiental",
+                    "requisitos": [
+                        ""
+                    ],
+                    "creditos": 0,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ACUS207",
+                    "nombre": "Proyecto Acústico: Refuerzo Sonoro",
+                    "requisitos": [
+                        ""
+                    ],
+                    "creditos": 0,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "IIME166",
+                    "nombre": "Eficiencia Energética y Calidad Ambiental en la Edificación",
+                    "requisitos": [
+                        ""
+                    ],
+                    "creditos": 0,
+                    "categoria": "General"
+                },
+                {
+                    "codigo": "ACUS208",
+                    "nombre": "Práctica de Refuerzo Sonoro",
+                    "requisitos": [
+                        ""
+                    ],
+                    "creditos": 0,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT112",
+                    "nombre": "Optativo de Profundización 1",
+                    "requisitos": [
+                        ""
+                    ],
+                    "creditos": 0,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 10,
+            "asignaturas": [
+                {
+                    "codigo": "ELEP231",
+                    "nombre": "Proyecto Profesional: Fase Evaluación y Gestión",
+                    "requisitos": [
+                        "ELEP225"
+                    ],
+                    "creditos": 12,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELEP229",
+                    "nombre": "Emprendimiento e Innovación",
+                    "requisitos": [
+                        "IDMI175"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELEC295",
+                    "nombre": "Práctica Profesional I",
+                    "requisitos": [
+                        "",
+                        ""
+                    ],
+                    "creditos": 10,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT72",
+                    "nombre": "Optativo de Profundización 2",
+                    "requisitos": [
+                        "",
+                        ""
+                    ],
+                    "creditos": 4,
+                    "categoria": "Optativa"
+                }
+            ]
+        },
+        {
+            "numero": 11,
+            "asignaturas": [
+                {
+                    "codigo": "ELEP299",
+                    "nombre": "Trabajo de Título",
+                    "requisitos": [
+                        "ELEP231"
+                    ],
+                    "creditos": 12,
+                    "categoria": "Especialidad"
+                },
+                {
+                    "codigo": "ELEC296",
+                    "nombre": "Práctica Profesional II",
+                    "requisitos": [
+                        "ELEC295"
+                    ],
+                    "creditos": 14,
+                    "categoria": "Vinculante"
+                },
+                {
+                    "codigo": "ELECT73",
+                    "nombre": "Optativo de Profundización 3",
+                    "requisitos": [
+                        "ELEB075",
+                        "BAIN075",
+                        "DYRE070",
+                        "BAIN067",
+                        "ELECT12",
+                        "ELECT13",
+                        "INFO058",
+                        "BAIN069",
+                        "ELEB080",
+                        "ELEB065",
+                        "ELEB070",
+                        "BAIN073",
+                        "BAIN065",
+                        "IDMI175",
+                        "ELEL216",
+                        "ELEB085",
+                        "ELEL200",
+                        "ELEL228",
+                        "ELEL210",
+                        "ELEL220",
+                        "IECO155",
+                        "BAIN081",
+                        "ELECT40",
+                        "ELECT41",
+                        "ELEP229",
+                        "BAIN091",
+                        "BAIN089",
+                        "BAIN077",
+                        "BAIN085",
+                        "ELEP220",
+                        "ELEP295",
+                        "ELEL208",
+                        "ELEL224",
+                        "ELEL185",
+                        "BAIN087",
+                        "ELEL187",
+                        "ELECT71",
+                        "ELECT72",
+                        "ELEP225",
+                        "ELEP231",
+                        "ELEC295",
+                        "ELEL222",
+                        "ELEL212",
+                        "ELEL206",
+                        "ELEL204",
+                        "ELEL214",
+                        "ELEP215",
+                        "ELEL176",
+                        "ELEL202",
+                        "ELEL189",
+                        "ELEL218",
+                        "ELEL226",
+                        "ELEB090",
+                        "ELEB088",
+                        "BAIN083"
+                    ],
+                    "creditos": 4,
+                    "categoria": "Optativa"
+                }
+            ]
+        }
+    ]
+}

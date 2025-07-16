@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular Interactiva - Ing. Civil Electrónica</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Malla Curricular Interactiva</h1>
+            <p class="subtitle">Carrera: Ingeniería Civil Electrónica, Universidad Austral de Chile</p>
+        </header>
+
+        <!-- <div class="instructions">
+            <div>
+                Pase el cursor sobre cualquier asignatura para ver sus relaciones:
+                <strong>prerequisitos (naranja)</strong> y
+                <strong>asignaturas que la requieren (rojo)</strong>
+                <br>
+                <strong>Haga clic para mantener la selección</strong>
+            </div>
+        </div> -->
+
+        <div class="curriculum-container" id="curriculumContainer">
+            <!-- Los semestres se generarán con JavaScript -->
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color legend-normal"></div>
+                <span>Asignatura Sin Seleccionar</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color legend-current"></div>
+                <span>Asignatura Seleccionada</span>
+            </div>
+            <!-- <div class="legend-item">
+                <div class="legend-color legend-highlighted"></div>
+                <span>Requisitos</span>
+            </div> -->
+            <div class="legend-item">
+                <div class="legend-color legend-requisite"></div>
+                <span>Prerequisito de la Asignatura Seleccionada</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color legend-requisite-for"></div>
+                <span>Requerida por la Asignatura Seleccionada</span>
+            </div>
+        </div>
+
+        <div class="legend-category">
+            <div class="legend-category-item">
+                <div class="legend-cat-color legend-especialidad"></div>
+                <span>Área de Formación de la Especialidad</span>
+            </div>
+            <div class="legend-category-item">
+                <div class="legend-cat-color legend-general"></div>
+                <span>Área de Formación General</span>
+            </div>
+            <div class="legend-category-item">
+                <div class="legend-cat-color legend-vinculante"></div>
+                <span>Área de Formación Vinculante</span>
+            </div>
+            <div class="legend-category-item">
+                <div class="legend-cat-color legend-optativa"></div>
+                <span>Área de Formación Optativa</span>
+            </div>
+        </div>
+
+        <div id="totalCredits" class="">
+            <!-- Total de créditos se mostrará aquí -->
+        </div>
+
+        <div class="reference">
+            <p>Nota: Los requisitos de cada asignatura fueron obtenidos directamente desde InfoAlumnos.</p>
+        </div>
+
+        <div class="reference">
+            <p>Esta malla curricular interactiva es de código abierto y se encuentra en el repositorio: <a
+                    href="https://github.com/aretesatori/malla-interactiva-uach">https://github.com/aretesatori/malla-interactiva-uach</a>
+            </p>
+        </div>
+
+        <div class="reference">
+            <p>Plan de Estudios de la Carrera de Ingeniería Civil Electrónica: <a
+                    href="https://www.uach.cl/dw/admision/plandeestudio.php?car=1736">https://www.uach.cl/dw/admision/plandeestudio.php?car=1736</a>
+            </p>
+        </div>
+
+        <footer>
+            <p>Desarrollado por <a href="https://aretesatori.github.io/">Areté S. Poffart</a>. Licencia <a href="https://github.com/aretesatori/malla-interactiva-uach?tab=MIT-1-ov-file">MIT</a>. 2025.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

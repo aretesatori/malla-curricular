@@ -38,7 +38,8 @@ header {
 
 h1 {
     font-size: 1.8rem;
-    margin-bottom: 5px;
+    margin-top: 3px;
+    margin-bottom: 12px;
     font-weight: 600;
 }
 
@@ -144,7 +145,7 @@ button:hover {
 .subject-code {
     font-weight: 600;
     color: #2b6cb0;
-    font-size: 0.85rem;
+    font-size: 0.84rem;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;

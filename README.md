@@ -6,7 +6,7 @@ Link: https://aretesatori.github.io/malla-interactiva-uach/
 
 ## Agradecimientos
 
-Dejo expresado un agradecimiento especial a Sebastián Luarte (estudiante de Ingeniería Civil en Informática) y al profesor Julio Guerra (académico del Instituto de Informática), por disponibilizar los datos que hicieron posible el desarrollo de estas mallas curriculares interactivas.
+Dejo expresado un agradecimiento especial a Sebastián Luarte (tesista de Ingeniería Civil en Informática) y al profesor Julio Guerra (académico del Instituto de Informática), por disponibilizar los datos que hicieron posible el desarrollo de estas mallas curriculares interactivas.
 
 ## Referencia
 
